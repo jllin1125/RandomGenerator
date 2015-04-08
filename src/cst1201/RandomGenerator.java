@@ -6,7 +6,6 @@ import java.util.Random;
 public class RandomGenerator {
 
     public static void main(String[] args) {
-        //TODO: Print the average, max, min, count, and sum of the integers.
         int sum = 0;
         double avg = 0.0;
         int max = 0;
@@ -17,9 +16,9 @@ public class RandomGenerator {
         int lower = keyboard.nextInt();
         System.out.print("What is the upper bound  ");//TODO: Ask the user a  upper bound.
         int upper = keyboard.nextInt();
-       
+
         int min = lower;
-       
+
         System.out.print("the number of random integers to generate  ");//TODO: Ask the user for the number of random integers to generate.
         int numofran = keyboard.nextInt();
 
@@ -43,11 +42,12 @@ public class RandomGenerator {
         }
 
         avg = avg / numofran;//Find the average
+        //TODO: Print the average, max, min, count, and sum of the integers.
         System.out.println("Average:  " + avg);
         System.out.println("Sum：  " + sum);
         System.out.println("Num of integer:   " + numofran);//Count
-        System.out.println("minimum:  "+min);
-        System.out.println("maximum:  "+max);
+        System.out.println("minimum:  " + min);
+        System.out.println("maximum:  " + max);
 
     }
 }
